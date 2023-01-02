@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F2F3;
+   font-family: Arial, sans-serif;
+}
+
+.left-upper-buttons {
+    display: flex;
+    list-style: none;
+    padding-left: 12px;
+    float: left;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.right-upper-buttons {
+    display: flex;
+    list-style: none;
+    padding-left: 12px;
+    float: right;
+}
+
+.sub-container{
+    padding: 6% 0;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+li {
+    display: inline;
+    padding: 0 12px;
+}
+
+.stack-header {
+    margin: auto 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #F8F9F9;
+    box-shadow: 4px 4px 4px 1px  #00000020 ;
+    
+
+}
+
+.left-list {
+    margin: 20px 0;
+}
+
+.left-list-header{
+    font-size: 24px;
+    font-weight:bolder;
+}
+
+.last-left-text {
+    font-size: 14px;
+}
+
+.stack-teams {
+    text-decoration: none;
+}
+
+.no-wrap-text {
+    white-space: nowrap;
+}
+
+#searchbar {
+    height: 34px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.left-section {
+   
+    display: inline-block;
+    width: 400px;
+    max-width: 400px;
+    min-width: 300px;
+    padding-right: 15px;
+    padding-top: 150px;
+
+}
+
+.right-section {
+    display: inline-block;
+    width: 400px;
+    max-width: 400px;
+    min-width: 300px;
+
+}
+.login{ 
+    border: 1px solid #B8CFDF;
+    height:22px;
+    background-color: #E1ECF4;
+    margin: auto 3px;
+    padding: 8px auto 8px;
+    color:#000000
+}
+
+.signup{ 
+    border: 1px solid #0A95FF;
+    height:22px;
+    background-color: #0A95FF;
+    margin: auto 3px;
+    color:#FFFFFF;
+    padding: 8px auto 8px;
+}
+
+.sign-button{
+    margin: 8px 0;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.google-button{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.github-button{
+    background-color: #2F3337;
+    color:#ffffff
+}
+
+.facebook-button{
+    background-color: #385499;
+    color:#ffffff
+}
+.signup-box{
+    background-color: #FFFFFF;
+    padding: 24px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 5px #00000028;
+}
+.information{
+    margin: 30px;
+}
+
+.listnowrap{
+    white-space: nowrap;
+}
+
+input{
+    width:100%;
+    height: 30px;
+}
+
+p{
+    font-size: 12px;
+}
+
+#checkbox{
+    display: inline;
+}
+.checkbox{
+    display: inline;
+    margin-top: 10px ;
+    font-size: 12px;
+}
+
+.bottom-signup{
+background-color: #0A95FF;
+height: 30px;
+
+text-align: center;
+font-size: 16px;
+border-radius: 5px;
+color: #ffffff;
+margin: 20px;
+}
