@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Stack Signup Screen</title>
     <script src="https://kit.fontawesome.com/5e08b15075.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="stack-header">
         <ul class="left-upper-buttons">
@@ -25,69 +27,64 @@
             <li class="signup">Signup</li>
         </ul>
     </div>
- 
+
     <div class="container">
-            <div class="left-section">
-                <div class="left-list-header">Join the Stack Overflow community</div>
-
-              <!--- <div class="left-list"><i class="fa-solid fa-question fa-fw" style="color: blue;"></i>Get unstuck — ask
-                    a question</div>
-                <div class="left-list"><i class="fa-solid fa-up-down fa-fw" style="color: blue;"></i>Unlock new
-                    privileges like voting and commenting</div>
-                <div class="left-list"><i class="fa-solid fa-tags fa-fw" style="color: blue;"></i>Save your favorite
-                    tags, filters, and jobs</div>
-                <div class="left-list"><i class="fa-solid fa-trophy fa-fw" style="color: blue;"></i>Earn reputation and
-                    badges</div>-->
-
-                <ul class="left-list">
-                    <li class="left-list"><i class="fa-solid fa-question fa-fw" style="color: blue;"></i>Get unstuck — ask
-                        a question</li>
-                    <li class="left-list"><i class="fa-solid fa-up-down fa-fw" style="color: blue;"></i>Unlock new
-                        privileges like voting and commenting</li>
-                    <li class="left-list"><i class="fa-solid fa-tags fa-fw" style="color: blue;"></i>Save your favorite
-                        tags, filters, and jobs</li>
-                    <li class="left-list"><i class="fa-solid fa-trophy fa-fw" style="color: blue;"></i>Earn reputation and
-                        badges</li>
-                </ul>
-                <div class="left-list last-left-text">Collaborate and share knowledge with a private group for
-                    FREE.<br><a
-                        href="https://stackoverflow.com/teams?utm_source=so-owned&utm_medium=product&utm_campaign=free-50&utm_content=public-sign-up"
-                        class="stack-teams">Get Stack Overflow for Teams free for up to 50 users.</a></div>
-            </div>
-            <div class="right-section">
+        <div class="left-section">
+            <div class="left-list-header">Join the Stack Overflow community</div>
+            <ul class="left-list">
+                <li class="left-list"><i class="fa-solid fa-question fa-fw" style="color: blue;"></i>Get unstuck — ask
+                    a question</li>
+                <li class="left-list"><i class="fa-solid fa-up-down fa-fw" style="color: blue;"></i>Unlock new
+                    privileges like voting and commenting</li>
+                <li class="left-list"><i class="fa-solid fa-tags fa-fw" style="color: blue;"></i>Save your favorite
+                    tags, filters, and jobs</li>
+                <li class="left-list"><i class="fa-solid fa-trophy fa-fw" style="color: blue;"></i>Earn reputation and
+                    badges</li>
+            </ul>
+            <p class="left-list last-left-text">Collaborate and share knowledge with a private group for
+                FREE.</p>
+            <a href="https://stackoverflow.com/teams?utm_source=so-owned&utm_medium=product&utm_campaign=free-50&utm_content=public-sign-up"
+                class="stack-teams last-left-text">Get Stack Overflow for Teams free for up to 50 users.</a>
+        </div>
+        <div class="right-section">
+            <div class="sign-buttons">
                 <div class="google-button sign-button"><i class="fa-brands fa-google fa-fw"></i>Sign up with Google
                 </div>
                 <div class="github-button sign-button"><i class="fa-brands fa-github fa-fw"></i>Sign up with GitHub
                 </div>
                 <div class="facebook-button sign-button"><i class="fa-brands fa-facebook fa-fw"></i>Sign up with
                     Facebook</div>
-                <div class="signup-box">
-                    <div class="name-inf information">
-                        <label for="name"><b>Display name</b></label><br>
-                        <input type="text" class="name" id="name"></input>
-                    </div>
-                    <div class="email-inf information">
-                        <label for="email"><b>Email</b></input><br>
-                            <input type="email" id="email" class="email"></input>
-                    </div>
-                    <div class="password-inf information">
-                        <label for="password"><b>Password</b></label><br>
-                        <input type="password" name="password" id="password">
-                    </div>
-                    <div class="info information">
-                        <p>Passwords must contain at least eight characters, including at least 1 letter and 1 number.
-                        </p>
-                        <img src="#" alt="recaptcha" class="recaptcha">
-                        <div class="checkbox">
-                            <input type="checkbox" id="checkbox"><label for="checkbox" class="checkbox">
-                                Opt-in to receive occasional product updates, user research invitations, company
-                                announcements, and digests.</label>
-                            <div class="bottom-signup">Sign up</div>
-                            <div><p>By clicking “Sign up”, you agree to our <a class="stack-teams" href="#">terms of service, privacy policy</a> and <a href="#" class="stack-teams">cookie</a> policy</p></div>
+            </div>
+            <div class="signup-box">
+                <div class="name-inf information">
+                    <label for="name"><b>Display name</b></label><br>
+                    <input type="text" class="name" id="name" name="display-name"></input>
+                </div>
+                <div class="email-inf information">
+                    <label for="email"><b>Email</b></input><br>
+                        <input type="email" id="email" class="email" name="email"></input>
+                </div>
+                <div class="password-inf information">
+                    <label for="password"><b>Password</b></label><br>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="info information">
+                    <p>Passwords must contain at least eight characters, including at least 1 letter and 1 number.
+                    </p>
+                    <img src="#" alt="recaptcha" class="recaptcha">
+                    <div class="checkbox">
+                        <input type="checkbox" id="checkbox"><label for="checkbox" class="checkbox">
+                            Opt-in to receive occasional product updates, user research invitations, company
+                            announcements, and digests.</label>
+                        <div class="bottom-signup">Sign up</div>
+                        <div>
+                            <p>By clicking “Sign up”, you agree to our <a class="stack-teams" href="#">terms of service,
+                                    privacy policy</a> and <a href="#" class="stack-teams">cookie</a> policy</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 </body>
 

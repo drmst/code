@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
+    border:1px double rgb(187, 13, 13);
+    
 }
 
 body {
     background-color: #F1F2F3;
-   font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .left-upper-buttons {
@@ -25,16 +27,16 @@ body {
     float: right;
 }
 
-.sub-container{
+.sub-container {
     padding: 6% 0;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 
 li {
-    display: inline;
+    display: block;
     padding: 0 12px;
 }
 
@@ -43,20 +45,21 @@ li {
     display: flex;
     justify-content: center;
     background-color: #F8F9F9;
-    box-shadow: 4px 4px 4px 1px  #00000020 ;
-    
+    box-shadow: 4px 4px 4px 1px #00000020;
+
 
 }
 
 .left-list {
     margin: 20px 0;
     list-style-type: none;
+    padding: 0px;
 
 }
 
-.left-list-header{
+.left-list-header {
     font-size: 24px;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 .last-left-text {
@@ -83,7 +86,7 @@ li {
 }
 
 .left-section {
-   
+
     display: inline-block;
     width: 400px;
     max-width: 400px;
@@ -100,25 +103,26 @@ li {
     min-width: 300px;
 
 }
-.login{ 
+
+.login {
     border: 1px solid #B8CFDF;
-    height:22px;
+    height: 22px;
     background-color: #E1ECF4;
     margin: auto 3px;
     padding: 8px auto 8px;
-    color:#000000
+    color: #000000
 }
 
-.signup{ 
+.signup {
     border: 1px solid #0A95FF;
-    height:22px;
+    height: 22px;
     background-color: #0A95FF;
     margin: auto 3px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     padding: 8px auto 8px;
 }
 
-.sign-button{
+.sign-button {
     margin: 8px 0;
     padding: 10px 0;
     text-align: center;
@@ -126,59 +130,62 @@ li {
 
 }
 
-.google-button{
+.google-button {
     background-color: #ffffff;
     color: #000000;
 }
 
-.github-button{
+.github-button {
     background-color: #2F3337;
-    color:#ffffff
+    color: #ffffff
 }
 
-.facebook-button{
+.facebook-button {
     background-color: #385499;
-    color:#ffffff
+    color: #ffffff
 }
-.signup-box{
+
+.signup-box {
     background-color: #FFFFFF;
     padding: 24px;
     margin-top: 20px;
     box-shadow: 5px 5px 5px 5px #00000028;
 }
-.information{
+
+.information {
     margin: 30px;
 }
 
-.listnowrap{
+.listnowrap {
     white-space: nowrap;
 }
 
-input{
-    width:100%;
+input {
+    width: 100%;
     height: 30px;
 }
 
-p{
+p {
     font-size: 12px;
 }
 
-#checkbox{
+#checkbox {
     display: inline;
 }
-.checkbox{
+
+.checkbox {
     display: inline;
-    margin-top: 10px ;
+    margin-top: 10px;
     font-size: 12px;
 }
 
-.bottom-signup{
-background-color: #0A95FF;
-height: 30px;
+.bottom-signup {
+    background-color: #0A95FF;
+    height: 30px;
 
-text-align: center;
-font-size: 16px;
-border-radius: 5px;
-color: #ffffff;
-margin: 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 20px;
 }
