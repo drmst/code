@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-
+    font-family: "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
 }
 
 body {
@@ -34,8 +34,7 @@ body {
 
 }
 
-li {
-    display: block;
+.general-list {
     padding: 0 12px;
 }
 
@@ -81,12 +80,16 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    margin-top: 24px;
 
 }
 
 .left-section {
-
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
     width: 400px;
     max-width: 400px;
     min-width: 300px;
@@ -96,11 +99,11 @@ li {
 }
 
 .right-section {
-    display: inline-block;
-    width: 400px;
-    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    max-width: 350px;
     min-width: 300px;
-
 }
 
 .login {
@@ -121,12 +124,18 @@ li {
     padding: 8px auto 8px;
 }
 
+.sign-buttons-container {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 .sign-button {
     margin: 8px 0;
     padding: 10px 0;
     text-align: center;
     border-radius: 8px;
-
 }
 
 .google-button {
@@ -149,6 +158,7 @@ li {
     padding: 24px;
     margin-top: 20px;
     box-shadow: 5px 5px 5px 5px #00000028;
+    border-radius: 8px;
 }
 
 .information {
@@ -189,19 +199,18 @@ p {
     margin: 20px;
 }
 
-.last-text{
+.last-text {
     margin: 20px 0 0 0;
     padding: 10px 0 0 0;
 
 
 }
 
-.left-last-text{
+.left-last-text {
     text-align: center;
     margin: 20px 0;
 }
 
-.link-decoration{
+.link-decoration {
     text-decoration: none;
 }
-
