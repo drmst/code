@@ -188,3 +188,20 @@ p {
     color: #ffffff;
     margin: 20px;
 }
+
+.last-text{
+    margin: 20px 0 0 0;
+    padding: 10px 0 0 0;
+
+
+}
+
+.left-last-text{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.link-decoration{
+    text-decoration: none;
+}
+
