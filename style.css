@@ -66,8 +66,8 @@ body {
 }
 
 .left-list-header {
-    font-size: 24px;
-    font-weight: bolder;
+    font-size: 30px;
+    font-weight:490;
 }
 
 .last-left-text {
@@ -161,7 +161,7 @@ body {
 }
 
 .sign-button {
-    margin: 6px 0;
+    margin: 4px 0;
     padding: 10px 0;
     text-align: center;
     border-radius: 8px;
@@ -215,8 +215,12 @@ input {
     width: 100%;
     height: 30px;
     margin: 2px 0;
+    border: 1px solid #cecccc;
 }
 
+.bold-label{
+    font-weight: 500;
+}
 p {
     font-size: 12px;
 }
