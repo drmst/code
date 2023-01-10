@@ -17,6 +17,7 @@ body {
 
 .search-bar {
     display: flex;
+    align-items: stretch;
 }
 
 .right-upper-buttons {
@@ -37,13 +38,22 @@ body {
 .general-list {
     padding: 0 12px;
 }
+.background-hover-shadow:hover{
+    background-color: #00000016;
+    border-radius: 10px;
+    }
+
+.stack-background-hover-shadow:hover{
+    background-color:  #00000016;
+
+}
 
 .stack-header {
     margin: auto 0px;
     display: flex;
     justify-content: center;
     background-color: #F8F9F9;
-    box-shadow: 4px 4px 4px 1px #00000020;
+    box-shadow: 0px 2px 5px #0000008c;
 
 
 }
@@ -64,9 +74,16 @@ body {
     font-size: 14px;
 }
 
+
+
 .stack-teams {
     text-decoration: none;
 }
+
+.link-hover:hover{
+    color:#5e5ef0;
+}
+
 
 .no-wrap-text {
     white-space: nowrap;
@@ -112,7 +129,13 @@ body {
     background-color: #E1ECF4;
     margin: auto 3px;
     padding: 8px auto 8px;
-    color: #000000
+    color: #000000;
+    border-radius: 3px;
+}
+
+.login:hover{
+    background-color: #3a91cf6b;
+
 }
 
 .signup {
@@ -122,7 +145,14 @@ body {
     margin: auto 3px;
     color: #FFFFFF;
     padding: 8px auto 8px;
+    border-radius: 3px;
 }
+
+.signup:hover{
+    background-color: #0569b6;
+
+}
+
 
 .sign-buttons-container {
     display: flex;
@@ -131,10 +161,11 @@ body {
 }
 
 .sign-button {
-    margin: 8px 0;
+    margin: 6px 0;
     padding: 10px 0;
     text-align: center;
     border-radius: 8px;
+    border:1px solid rgb(206, 206, 206);
 }
 
 .google-button {
@@ -142,20 +173,33 @@ body {
     color: #000000;
 }
 
+.google-button:hover{
+    background-color: #f3f3f3;
+}
+
 .github-button {
     background-color: #2F3337;
     color: #ffffff
 }
 
+.github-button:hover{
+    background-color:#232527;
+}
+
 .facebook-button {
-    background-color: #385499;
+    background-color: #4160b1;
     color: #ffffff
+}
+
+.facebook-button:hover{
+
+    background-color: #293f76;
 }
 
 .signup-box {
     background-color: #FFFFFF;
     padding: 24px;
-    box-shadow: 5px 5px 5px 5px #00000028;
+    box-shadow: 0 0 15px #0000005f;
     border-radius: 8px;
 }
 
@@ -189,12 +233,15 @@ p {
 .bottom-signup {
     background-color: #0A95FF;
     height: 30px;
-
     text-align: center;
     font-size: 16px;
     border-radius: 5px;
     color: #ffffff;
     margin: 20px;
+}
+
+.bottom-signup:hover{
+    background-color: #0770c1;
 }
 
 .last-text {
