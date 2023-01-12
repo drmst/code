@@ -235,13 +235,16 @@ p {
 }
 
 .bottom-signup {
+    width: 100%;
     background-color: #0A95FF;
     height: 30px;
     text-align: center;
     font-size: 16px;
     border-radius: 5px;
     color: #ffffff;
-    margin: 20px;
+    border:none;
+    margin-top: 20px;
+   
 }
 
 .bottom-signup:hover{
@@ -249,10 +252,7 @@ p {
 }
 
 .last-text {
-    margin: 20px 0 0 0;
-    padding: 10px 0 0 0;
-
-
+    padding: 5px;
 }
 
 .left-last-text {
