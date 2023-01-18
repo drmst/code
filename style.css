@@ -225,14 +225,6 @@ p {
     font-size: 12px;
 }
 
-#checkbox {
-    display: inline;
-}
-
-.checkbox {
-    margin-top: 10px;
-    font-size: 12px;
-}
 
 .checkbox-container {
     display: flex;

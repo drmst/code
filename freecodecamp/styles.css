@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    font-family:'Open Sans', Arial, sans-serif;
+}
+
+#navbar{
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.nav-link{
+    text-decoration:none ;
+  
+}
+.nav-link:visited{
+    color:gray;
+}
+
+.nav-link:hover{
+    color:gray;
+}
+.nav-link:active{
+    color:gray;
+}
