@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+body {
+    background-color: #F1F2F3;
+    font-family: Arial, sans-serif;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: stretch;
+}
+
+
+.stack-header {
+  background-color: #f8f9f9;
+  box-shadow: 0px 2px 5px #0000008c;
+  height: 50px;
+  margin: auto 0px;
+
+}
+
+.nav-container {
+  width:60%; 
+  height: 100%;
+  margin: 0 auto;
+  list-style: none;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+
+
+.searchbar-item {
+  width:600%;
+}
+
+.searchbar-item>input{
+  width: 100%;
+  height: 33px;
+}
+
+.sub-container {
+    padding: 6% 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.general-list {
+    padding: 0 12px;
+}
+.background-hover-shadow:hover{
+    background-color: #00000016;
+    border-radius: 10px;
+    }
+
+.stack-background-hover-shadow:hover{
+    background-color:  #00000016;
+
+}
+
+
+.left-list {
+    margin: 20px 0;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.left-list-header {
+    font-size: 30px;
+    font-weight:490;
+}
+
+.last-left-text {
+    font-size: 14px;
+}
+
+
+
+.stack-teams {
+    text-decoration: none;
+}
+
+.link-hover:hover{
+    color:#5e5ef0;
+}
+
+
+.no-wrap-text {
+    white-space: nowrap;
+}
+
+#searchbar {
+    height: 34px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 400px;
+    max-width: 400px;
+    min-width: 300px;
+    padding-right: 15px;
+    padding-top: 150px;
+
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    max-width: 350px;
+    min-width: 300px;
+}
+
+.login {
+    border: 1px solid #B8CFDF;
+    height: 22px;
+    background-color: #E1ECF4;
+    margin: auto 3px;
+    padding: 8px auto 8px;
+    color: #000000;
+    border-radius: 3px;
+}
+
+.login:hover{
+    background-color: #3a91cf6b;
+
+}
+
+.signup {
+    border: 1px solid #0A95FF;
+    height: 22px;
+    background-color: #0A95FF;
+    margin: auto 3px;
+    color: #FFFFFF;
+    padding: 8px auto 8px;
+    border-radius: 3px;
+}
+
+.signup:hover{
+    background-color: #0569b6;
+
+}
+
+
+.sign-buttons-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.sign-button {
+    margin: 4px 0;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 8px;
+    border:1px solid rgb(206, 206, 206);
+}
+
+.google-button {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.google-button:hover{
+    background-color: #f3f3f3;
+}
+
+.github-button {
+    background-color: #2F3337;
+    color: #ffffff
+}
+
+.github-button:hover{
+    background-color:#232527;
+}
+
+.facebook-button {
+    background-color: #4160b1;
+    color: #ffffff
+}
+
+.facebook-button:hover{
+
+    background-color: #293f76;
+}
+
+.signup-box {
+    background-color: #FFFFFF;
+    padding: 24px;
+    box-shadow: 0 0 15px #0000005f;
+    border-radius: 8px;
+}
+
+.information {
+    margin: 6px 0;
+}
+
+.listnowrap {
+    white-space: nowrap;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    margin: 2px 0;
+    border: 1px solid #cecccc;
+}
+
+.bold-label{
+    font-weight: 500;
+}
+p {
+    font-size: 12px;
+}
+
+
+.checkbox-container {
+    display: flex;
+    margin-top: 6px 0;
+    font-size: 12px;
+  }
+  .checkbox-input {
+    margin-right: 2px;
+  }
+  
+  .checkbox-label {
+    margin-top: 2px;
+  }
+
+.bottom-signup {
+    width: 100%;
+    background-color: #0A95FF;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #ffffff;
+    border:none;
+    margin-top: 20px;
+   
+}
+
+.bottom-signup:hover{
+    background-color: #0770c1;
+}
+
+.last-text {
+    padding: 5px;
+}
+
+.left-last-text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.link-decoration {
+    text-decoration: none;
+}
