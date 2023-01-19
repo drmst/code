@@ -1,16 +1,27 @@
 *{
     box-sizing: border-box;
     font-family:'Open Sans', Arial, sans-serif;
+    min-width: 400px;
 }
+
 
 #navbar{
     border: 1px solid black;
     display: flex;
+    flex-direction: column;
+    text-align: center;
     
+    
+}
+
+nav header{
+    border: 0.1px solid gray;
 }
 
 .nav-link{
     text-decoration:none ;
+    border: 0.1px solid gray;
+    
   
 }
 .nav-link:visited{
@@ -22,4 +33,27 @@
 }
 .nav-link:active{
     color:gray;
+}
+
+.nav-link:link{
+    color: gray;
+}
+
+
+header{
+    font-size: 24px;
+    padding: 15px;
+}
+code{
+    background-color: rgba(199, 196, 196, 0.405);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+@media screen and (min-width: 992px) {
+    body{
+        background-color: rgba(178, 35, 35, 0.893);
+    }
+    
 }
